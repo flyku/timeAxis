@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<style>
+	body,div,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,iframe,input,textarea,select,label,article,aside,footer,header,menu,nav,section,time,audio,video {
+		margin:0;
+		padding:0;
+	}
+*,*:after,*:before{
+	-webkit-box-sizing:border-box;
+}
+		.index-navs{
+			margin: 50px 0 30px 10px;
+			width: 970px;
+			height: 29px;
+		}
+		.index-navs .ul-cont{
+			float: left;
+			position: relative;
+			width: 485px;
+			height: 32px;
+			overflow: hidden;
+		}
+		ul#index-navs{
+			display: inline-block;
+			position: absolute;
+			min-width: 660px;
+			height: 28px;
+			margin: 0;
+		}
+		ul#index-navs li{
+			float: left;
+			width: 120px;
+			height: 28px;
+			line-height: 28px;
+			text-align: center;
+			min-height: 28px;
+			max-height: 28px;
+			padding: 0;
+			font-size: 14px;
+			cursor: pointer;
+			border-bottom: solid 1px #e7e7e7;
+		}
+		ul#index-navs li.lis-current{
+			color: #333;
+			font-weight: 600;
+			border-top: solid 1px #e7e7e7;
+			border-left: solid 1px #e7e7e7;
+			border-right: solid 1px #e7e7e7;
+			border-bottom: none;
+		}
+
+		a.next{
+			float: left;
+			position: relative;
+			right: 5px;
+			width: 415px;
+			height: 28px;
+			border-bottom: solid 1px #e7e7e7;
+		    background: url(images/a-next.png) no-repeat 15px center;
+		}
+		a.prev{
+			float: left;
+			left: 4px;
+			width: 70px;
+			height: 27px;
+			border-bottom: solid 1px #e7e7e7;
+		    background:url(images/a-prev.png) no-repeat 45px center;
+		}
+		a.next:hover{
+		    background:url(images/a-next-hover.png) no-repeat 15px center;
+		}
+		a.prev:hover{
+		    background:url(images/a-prev-hover.png) no-repeat 45px center;
+		}
+	</style>
+</head>
+<body>
+	<div class="index-navs">
+		<a href="####" class="prev prevNext"></a>
+		<div class="ul-cont">
+			<ul id="index-navs" class="clearfix">
+				<li class="lis-current">2014年</li>
+				<li>2015年</li>
+				<li>2016年</li>
+				<li>2017年</li>
+				<li>2018年</li>
+				<li>2019年</li>
+				<li>2018年</li>
+				<li>2019年</li>
+			</ul>
+		</div>
+		<a href="###" class="next prevNext"></a>
+	</div>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="js.js"></script>
+</html>
